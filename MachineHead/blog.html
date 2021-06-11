@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Blog</title>
+
+    <!-- Bootstrap -->
+
+  
+     <link href="inc/css/skeleton.css" rel="stylesheet">
+      <link href="inc/css/colorized.css" rel="stylesheet">
+    <link href="inc/css/style.css" rel="stylesheet">
+    <link href="inc/css/bootstrap.css" rel="stylesheet">
+    <link href="inc/css/font-awesome.css" rel="stylesheet">
+    <link href="inc/css/fonts.css" rel="stylesheet">
+    <link href="inc/css/doc.min.css" rel="stylesheet">
+
+
+      <script type="text/javascript" src="inc/js/skin.js"></script>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body id="body" class="">
+
+   <div class="dropdown colorized-settings-div">
+                 <a data-toggle="dropdown" href="#">
+                 <span class="glyphicon glyphicon-cog"></span>
+                 </a>
+                 <ul class="dropdown-menu colorized" role="menu" aria-labelledby="dLabel">
+                 <div class="colorizedpackage">
+
+                 <p>Skin:</p>
+                  <label onclick="setTheme();" id="red" for="red-radio">&nbsp;</label>
+                  <input id="red-radio" type="radio" name="skin-color" value="" checked="checked">
+
+                  <label onclick="setTheme();" id="blue" for="blue-radio">&nbsp;</label>
+                  <input id="blue-radio" type="radio" name="skin-color" value="">
+
+                   <label onclick="setTheme();" id="orange" for="orange-radio">&nbsp;</label>
+                  <input id="orange-radio" type="radio" name="skin-color" value="">
+
+
+                  <label onclick="setTheme();" id="black" for="black-radio">&nbsp;</label>
+                  <input id="black-radio" type="radio" name="skin-color" value="">
+
+
+                  <label onclick="setTheme();" id="purple" for="purple-radio">&nbsp;</label>
+                  <input id="purple-radio" type="radio" name="skin-color" value="">
+
+
+                  <label onclick="setTheme();" id="green" for="green-radio">&nbsp;</label>
+                  <input id="green-radio" type="radio" name="skin-color" value="">
+
+
+                  <label onclick="setTheme();" id="coral" for="coral-radio">&nbsp;</label>
+                  <input id="coral-radio" type="radio" name="skin-color" value="">
+
+                 <br>
+                 <br>
+                 <p style="width:100%; float:left;">Background Color:</p>
+                   <br>
+                  <label onclick="setTheme();" id="label-radio1" for="radio-1">&nbsp;</label>
+                  <input id="radio-1" type="radio" name="background" value="" checked="checked">
+                  <label onclick="setTheme();" id="label-radio2" for="radio-2">&nbsp;</label>
+                  <input id="radio-2" type="radio" name="background" value="">
+
+                 <br>
+                 <br>
+                 <p style="width:100%; float:left;">Background Pattern:</p>
+
+                  <label onclick="setTheme();" id="firstPattern" for="radio-1-pattern">&nbsp;</label>
+                  <input id="radio-1-pattern" type="radio" name="background" value="">
+
+
+                  <label onclick="setTheme();" id="secondPattern" for="radio-2-pattern">&nbsp;</label>
+                  <input id="radio-2-pattern" type="radio" name="background" value="">
+
+
+                   <label onclick="setTheme();" id="thirdPattern" for="radio-3-pattern">&nbsp;</label>
+                  <input id="radio-3-pattern" type="radio" name="background" value="">
+
+
+                  <label onclick="setTheme();" id="fourthPattern" for="radio-4-pattern">&nbsp;</label>
+                  <input id="radio-4-pattern" type="radio" name="background" value="">
+
+                 </div>
+                 </ul>
+               </div>
+    <div data-spy="affix" data-offset-top="850" data-offset-bottom="200">
+  
+
+    <div class="fluid-container header">
+      <div class="container">
+        <div class="row">
+        <div class="col-md-3 logo">
+          <h1>MACHINE <span>HEAD</span> </h1>
+          
+        </div>  <!-- end of logo -->
+
+        <div class="col-md-7 home-menu">
+  <nav class="navbar navbar-default menu-all-first" role="navigation">
+  <div class="container-fluid menuja">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle button-responsive" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse menu-all-rsp" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav  menuja-all">
+        
+         <li><a href="index.html">Home</a></li>
+         
+          <li><a class="smoothScroll" href="#about">About</a></li>
+         
+          <li class="dropdown drop-down">
+          <a href="#" class="dropdown-toggle drop-down-link drop-down-first" data-toggle="dropdown">Services <b class="caret"></b></a>
+          <ul class="dropdown-menu drop-down-menu">
+            <li><a href="undersconstructiun.html">Undecostruction</a></li>
+            <li><a href="error.html">Error</a></li>
+            <li><a href="shortcodes.html">Shortcodes</a></li>
+            
+          </ul>
+        </li>
+         <li><a class="smoothScroll" href="#portfolio">Portfolio</a></li>
+         <li><a class="smoothScroll" href="#pricing">Pricing</a></li>   
+           <li class="last-list"><a href="blog.html">Blog</a></li>
+      
+
+        <li class="dropdown drop-down">
+          <a href="#" class="dropdown-toggle drop-down-link drop-down-first" data-toggle="dropdown">Documentation <b class="caret"></b></a>
+          <ul class="dropdown-menu drop-down-menu">
+            <li><a href="css.html">CSS</a></li>
+            <li><a href="components.html">Component</a></li>
+            <li><a href="javascript.html">Java Script</a></li>
+            
+          </ul>
+        </li>
+           
+            <li><a class="smoothScroll" href="#contact">Contact</a></li>
+      </ul>
+
+    
+      
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+
+        </div><!-- END OF col-md-8 -->
+
+        <div class="col-md-2 search">
+            <form class="search-form form-search">
+               <input type="text" class="search-top" placeholder="Search">
+
+               <button type="submit" class="btn btn-default buttoni-trimi"></button>
+          </form>
+
+       
+
+       </div>
+
+
+      
+       </div>
+      </div>
+    </div><!-- end of menu -->
+    </div>
+                 <!-- END OF menu -->
+    
+
+
+
+    
+  
+  <div class="fluid-container blog">
+    <div class="container">
+      <div class="row">
+          <div class="col-md-12 div-of-staff">
+          <h1 class="title-default">BLOG</h1>
+        </div>
+
+              <div class="col-md-12 special-button">
+              <hr class="hr-button">
+                <div class="butonnni">
+                  <span>H<strong>M</strong></span>
+                </div>
+             </div>
+
+            <div class="col-md-12 blog-title">
+              <h1>Latest from the blog</h1>
+            </div>
+        
+            <div class="col-md-7 blog-left">
+              <img src="inc/images/blog-img.png">
+              <h1 class="blog-title-article">THE OLD MAN AND THE SEA</h1>
+              
+                <ul class="blog-list-first">
+                  <li>
+                    <i class="fa fa-user"></i>
+                    <p>admin</p>
+                  </li>
+                  <li>
+                    <i class="fa fa-clock-o"></i>
+                   <span>06 may, 2014</span>
+                  </li>
+                  <li>
+                    <i class="fa fa-folder-open"></i>
+                    <p>uncategorized</p>
+                  </li>
+                  <li>
+                   <i class="fa fa-comments"></i>
+                    <p>54</p>
+                   
+                  </li>
+                </ul>
+              
+              <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim... placerat facer possim assum. Typi non habent claritatem insita... est usus legentis in iis qui facit eorum claritatem. Investigationes </p>
+              <button type="button" class="btn btn-default read-more-blog">Read more</button>
+
+
+
+            </div>
+            <div class="col-md-2"></div>
+            <div class="col-md-3 right-blog">
+                  <form class="search-form search-blog">
+                     <input type="text" class="search-top search-top-blog" placeholder="Search">
+
+                     <button type="submit" class="btn btn-default search-img-blog"></button>
+                  </form>
+
+                  <div>
+                    <h1 class="title-default">ARCHIVED</h1>
+                    <ul class="all-list-blog">
+                   
+                     <li>
+                       <a href="#"> <span>May</span>2014</a>
+                       
+                      </li>
+                      <li>
+                        <a href="#"> <span>Aprill</span>2014</a>
+                        
+                     </li>
+                      <li>
+                        <a href="#"> <span>March</span>2014</a>
+                        
+                     </li>
+                      <li>
+                          <a href="#"> <span>Febrary</span>2014</a>
+                       
+                     </li>
+                      <li>
+                        <a href="#"><span>January</span> 2014</a>
+                       
+                     </li>
+                   </ul>
+                     
+                   
+
+                  </div>
+
+             </div>
+       
+
+      
+             <div class="col-md-7 blog-right">
+              <iframe width="100%" height="345"
+                src="http://www.youtube.com/embed/XGSy3_Czz8k">
+                </iframe>
+              <h1 class="blog-title-article">3d Nature Video</h1>
+             
+                <ul class="blog-list-first">
+                  <li>
+                    <i class="fa fa-user"></i>
+                    <p>admin</p>
+                  </li>
+                  <li>
+                    <i class="fa fa-clock-o"></i>
+                   <span>06 may, 2014</span>
+                  </li>
+                  <li>
+                    <i class="fa fa-folder-open"></i>
+                    <p>uncategorized</p>
+                  </li>
+                  <li>
+                   <i class="fa fa-comments"></i>
+                    <p>157</p>
+                   
+                  </li>
+                </ul>
+              
+              <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim... placerat facer possim assum. Typi non habent claritatem insita... est usus legentis in iis qui facit eorum claritatem. Investigationes </p>
+              <button type="button" class="btn btn-default read-more-blog">Read more</button>
+
+
+
+            </div>
+            <div class="col-md-1"></div>
+            <div class="col-md-4"></div>
+           
+            <div class="col-md-12 first-pages-blog">
+             <ul class="pagination pages-blog">
+                <li><a href="#">«</a></li>
+                <li><a href="#">1</a></li>
+                <li><a href="#">2</a></li>
+                <li><a href="#">3</a></li>
+                <li><a href="#">4</a></li>
+                <li><a href="#">5</a></li>
+                <li><a href="#">6</a></li>
+                <li><a href="#">7</a></li>
+                <li><a href="#">8</a></li>
+                <li><a href="#">9</a></li>
+                <li><a href="#">10</a></li>
+                <li><a href="#">»</a></li>
+              </ul>
+          </div>
+
+      </div>  
+    </div>
+  </div>
+  
+
+
+
+ <a id="all-footer" href=""></a>    
+    <div class="fluid-container footer">
+      <div class="container footer-container">
+        <div class="row">
+          <div class="col-md-12 div-footer">
+            <h1 class="title-footer">MACHINE
+            <span>HEAD</span>
+            </h1>
+          </div>
+        
+
+          <ul class="footer-social">
+             <li><i class="fa fa-facebook facebook"></i></li>
+             <li><i class="fa fa-twitter"></i> </li>
+             <li><i class="fa fa-google-plus"></i> </li>
+             <li><i class="fa fa-skype"></i></li>
+             <li><i class="fa fa-pinterest"></i> </li>
+            
+           </ul>
+           <div class="col-md-12 last-arow">
+            <ul>
+              <li>
+                <a id="go-to-top" href="#"> <i class="fa fa-angle-up"></i></a>
+              </li>
+             
+            </ul>
+           </div>
+         </div>
+        </div>
+      </div>
+    
+
+
+  
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+     <script src="inc/js/bootstrap.min.js"></script>
+      <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>  
+    
+        <script type="text/javascript" src="inc/js/plugins/SmoothScroll.js"></script>
+            <script type="text/javascript" src="inc/js/smoothscroll.js"></script>
+  <script>
+      $('#go-to-top').click(function () {
+          $(window.opera ? 'html' : 'html, body').animate({
+              scrollTop: 0 
+          }, 1000); // 
+      })
+    </script>
+    <script >
+      $('#my-affix').affix({
+    offset: {
+      top: 100
+    , bottom: function () {
+        return (this.bottom = $('.footer').outerHeight(true))
+      }
+    }
+  })
+    </script>
+  </body>
+</html>

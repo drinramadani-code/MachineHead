@@ -1,0 +1,83 @@
+
+@font-face
+{
+font-family: open sans bold;
+src: url(../fonts/OpenSans-Bold.ttf);
+}
+@font-face
+{
+font-family: open sans bold;
+src: url(../fonts/OpenSans-Bold.ttf);
+}
+@font-face
+{
+font-family: open sans bold-italic;
+src: url(../fonts/OpenSans-BoldItalic.ttf);
+}
+@font-face
+{
+font-family: open sans;
+src: url(../fonts/OpenSans-Regular.ttf);
+}
+@font-face
+{
+font-family: dosis bold;
+src: url(../fonts/Dosis-Bold.ttf);
+}
+@font-face
+{
+font-family: dosis bolder;
+src: url(../fonts/Dosis-ExtraBold.ttf);
+}
+@font-face
+{
+font-family: dosis semibold;
+src: url(../fonts/Dosis-Medium.ttf);
+} 
+
+@font-face
+{
+font-family: JosefinSlab bold;
+src: url(../fonts/JosefinSlab-Bold.ttf);
+} 
+@font-face
+{
+font-family: JosefinSlab bold-italic;
+src: url(../fonts/JosefinSlab-BoldItalic.ttf);
+} 
+{
+font-family: JosefinSlab italic;
+src: url(../fonts/JosefinSlab-Regular.ttf);
+} 
+{
+font-family: JosefinSlab light;
+src: url(../fonts/JosefinSlab-Light.ttf);
+} 
+{
+font-family: JosefinSlab light italic;
+src: url(../fonts/JosefinSlab-LightItalic.ttf);
+} 
+{
+font-family: JosefinSlab regular;
+src: url(../fonts/JosefinSlab-Regular.ttf);
+} 
+{
+font-family: JosefinSlab bold italic;
+src: url(../fonts/ JosefinSlab-BoldItalic.ttf);
+} 
+{
+font-family: JosefinSlab regular;
+src: url(../fonts/JosefinSlab-Regular.ttf);
+} 
+{
+font-family: JosefinSlab semi bold italic;
+src: url(../fonts/JosefinSlab-SemiBoldItalic.ttf);
+} 
+{
+font-family: JosefinSlab thin;
+src: url(../fonts/JosefinSlab-Thin.ttf);
+} 
+{
+font-family: JosefinSlab thin italic;
+src: url(../fonts/JosefinSlab-ThinItalic.ttf);
+} 

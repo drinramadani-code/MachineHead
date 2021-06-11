@@ -1,0 +1,1153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Machine Head</title>
+
+    <!-- Bootstrap -->
+
+  
+    <link href="inc/css/skeleton.css" rel="stylesheet">
+      <link href="inc/css/colorized.css" rel="stylesheet">
+    <link href="inc/css/style.css" rel="stylesheet">
+    <link href="inc/css/bootstrap.css" rel="stylesheet">
+    <link href="inc/css/font-awesome.css" rel="stylesheet">
+    <link href="inc/css/fonts.css" rel="stylesheet">
+    <link href="inc/css/doc.min.css" rel="stylesheet">
+
+
+      <script type="text/javascript" src="inc/js/skin.js"></script>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body id="body" class="">
+    <div class="dropdown colorized-settings-div">
+                 <a data-toggle="dropdown" href="#">
+                 <span class="glyphicon glyphicon-cog colorize-button"></span>
+                 </a>
+                 <ul class="dropdown-menu colorized" role="menu" aria-labelledby="dLabel">
+                 <div class="colorizedpackage">
+
+                 <p>Skin:</p>
+                  <label onclick="setTheme();" id="orange" for="orange-radio">&nbsp;</label>
+                  <input id="orange-radio" type="radio" name="skin-color" value="">
+
+                  <label onclick="setTheme();" id="red" for="red-radio">&nbsp;</label>
+                  <input id="red-radio" type="radio" name="skin-color" value="" checked="checked">
+
+                  <label onclick="setTheme();" id="blue" for="blue-radio">&nbsp;</label>
+                  <input id="blue-radio" type="radio" name="skin-color" value="">
+
+                  <label onclick="setTheme();" id="black" for="black-radio">&nbsp;</label>
+                  <input id="black-radio" type="radio" name="skin-color" value="">
+
+
+                  <label onclick="setTheme();" id="purple" for="purple-radio">&nbsp;</label>
+                  <input id="purple-radio" type="radio" name="skin-color" value="">
+
+
+                  <label onclick="setTheme();" id="green" for="green-radio">&nbsp;</label>
+                  <input id="green-radio" type="radio" name="skin-color" value="">
+
+
+                  <label onclick="setTheme();" id="coral" for="coral-radio">&nbsp;</label>
+                  <input id="coral-radio" type="radio" name="skin-color" value="">
+
+                 <br>
+                 <br>
+                 <p style="width:100%; float:left;">Background Color:</p>
+                   <br>
+                  <label onclick="setTheme();" id="label-radio1" for="radio-1">&nbsp;</label>
+                  <input id="radio-1" type="radio" name="background" value="" checked="checked">
+                  <label onclick="setTheme();" id="label-radio2" for="radio-2">&nbsp;</label>
+                  <input id="radio-2" type="radio" name="background" value="">
+
+                 <br>
+                 <br>
+                 <p style="width:100%; float:left;">Background Pattern:</p>
+
+                  <label onclick="setTheme();" id="firstPattern" for="radio-1-pattern">&nbsp;</label>
+                  <input id="radio-1-pattern" type="radio" name="background" value="">
+
+
+                  <label onclick="setTheme();" id="secondPattern" for="radio-2-pattern">&nbsp;</label>
+                  <input id="radio-2-pattern" type="radio" name="background" value="">
+
+
+                   <label onclick="setTheme();" id="thirdPattern" for="radio-3-pattern">&nbsp;</label>
+                  <input id="radio-3-pattern" type="radio" name="background" value="">
+
+
+                  <label onclick="setTheme();" id="fourthPattern" for="radio-4-pattern">&nbsp;</label>
+                  <input id="radio-4-pattern" type="radio" name="background" value="">
+
+                 </div>
+                 </ul>
+               </div>
+    <div data-spy="affix" data-offset-top="850" data-offset-bottom="200">
+  
+
+    <div class="fluid-container header">
+      <div class="container">
+        <div class="row">
+        <div class="col-md-3 logo">
+          <a href=""><h1>MACHINE <span>HEAD</span> </h1></a>
+          
+        </div>  <!-- end of logo -->
+     
+        <div class="col-md-7 home-menu">
+  <nav class="navbar navbar-default menu-all-first" role="navigation">
+  <div class="container-fluid menuja">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle button-responsive" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse menu-all-rsp" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav  menuja-all">
+        
+          <li><a class="smoothScroll" href="#home">Home</a></li>
+         
+          <li><a class="smoothScroll" href="#about">About</a></li>
+         
+        <li><a class="smoothScroll" href="#service">Services</a></li>
+        
+         <li><a class="smoothScroll" href="#portfolio">Portfolio</a></li>
+         <li><a class="smoothScroll" href="#pricing">Pricing</a></li>   
+           <li class="last-list"><a href="blog.html">Blog</a></li>
+      
+
+        <li class="dropdown drop-down">
+          <a href="#" class="dropdown-toggle drop-down-link drop-down-first" data-toggle="dropdown">Documentation <b class="caret"></b></a>
+          <ul class="dropdown-menu drop-down-menu">
+            <li><a href="css.html">CSS</a></li>
+            <li><a href="components.html">Component</a></li>
+            <li><a href="javascript.html">Java Script</a></li>
+            <li><a href="undersconstructiun.html">Undecostruction</a></li>
+            <li><a href="error.html">Error</a></li>
+            <li><a href="shortcodes.html">Shortcodes</a></li>
+          </ul>
+        </li>
+           
+            <li><a class="smoothScroll" href="#contact">Contact</a></li>
+      </ul>
+
+    
+      
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+
+        </div><!-- END OF col-md-8 -->
+
+        <div class="col-md-2 search">
+           
+                <button type="button" class="btn btn-danger search-button" data-toggle="collapse" data-target="#demo">
+                  <i class="fa fa-search"></i>
+                </button>
+
+              <div id="demo" class="collapse search-collapse">
+                     <form class="search-form form-search">
+
+
+                             <input type="text" class="search-top" placeholder="Search">
+
+                             <button type="submit" class="btn btn-default go-button">GO!</button>
+                        </form>
+              </div>
+           
+       
+
+       
+
+       </div>
+
+
+      
+       </div>
+      </div>
+    </div><!-- end of menu -->
+    </div>
+                 <!-- END OF menu -->
+
+                  <a id="home" href=""></a>
+     <div class="fluid-container slide">
+       <hr class="hr-menu">
+         <!--  <div class="container"> -->
+          <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+          <!-- Indicators -->
+          <ol class="carousel-indicators pikat">
+            <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+          </ol>
+
+          <!-- Wrapper for slides -->
+          <div class="carousel-inner  slide-img">
+          <div class=" slider-social item active">
+            <div class="opacity-slider">
+            
+              <img src="inc/images/slide.png" alt="epara">
+              <div class="carousel-caption">
+                <div class="div-of-slide">
+                  <h1  class="title-slide">WELCOME TO <strong>MACHINE</strong> HEAD</h1>
+                   <p>An awesome creative studio</p>
+                   <a class="smoothScroll" href="#all-footer"><i class="fa fa-angle-down"></i></a>
+                </div>
+              
+              </div>
+               </div>
+            </div>
+            <div class="item slider-social">
+              <img src="inc/images/slide.png" alt="epara">
+              <div class="carousel-caption">
+                <div class="div-of-slide">
+                  <h1  class="title-slide">WELCOME TO <strong>MACHINE</strong> HEAD</h1>
+                  <p>An awesome creative studio</p>
+                  <a class="smoothScroll" href="#all-footer"><i class="fa fa-angle-down"></i></a>
+                </div>
+              
+              </div>
+            </div>
+            <div class="item slider-social ">
+              <img src="inc/images/slide.png" alt="epara">
+              <div class="carousel-caption">
+               <div class="div-of-slide">
+                  <h1  class="title-slide">WELCOME TO <strong>MACHINE</strong> HEAD</h1>
+                   <p>An awesome creative studio</p>
+                    <a class="smoothScroll" href="#all-footer"><i class="fa fa-angle-down"></i></a>
+                </div>
+             
+
+
+              </div>
+            </div>
+           
+          </div>
+
+          <!-- Controls -->
+          <div class="arrow-slider">
+          <a class="left carousel-control left-arrow" href="#carousel-example-generic" data-slide="prev">
+            <!-- <span class="glyphicon glyphicon-chevron-left"></span> -->
+            <i class="fa fa-angle-left"></i>
+            
+          </a>
+          <a class="right carousel-control right-arrow" href="#carousel-example-generic" data-slide="next">
+            <!-- <span class="glyphicon glyphicon-chevron-right"></span> -->
+           <i class="fa fa-angle-right"></i>
+          </a>
+        </div>
+        </div>
+        <!-- </div> -->
+        </div>
+    <!-- slider END -->
+
+                                         <!-- END OF slider -->     
+
+    <div class="fluid-container about-us">
+
+      <div class="container">
+        <div class="row">
+        <div class="col-md-6">
+          
+            <h1 class="title-default">What we do</h1>
+          
+        </div>
+
+        
+         <div class="col-md-6">
+         
+            <h1 class=" title-default">What we do</h1>
+          
+        </div>
+              <!-- butoni interesant START HERE -->
+
+
+        <div class="col-md-12 special-button">
+
+            <hr class="hr-button">
+              <div class="butonnni">
+                <span>M<strong>H</strong></span>
+              </div>
+            
+        </div>
+
+
+
+              <!-- butoni interesant END HERE -->
+        <div class="col-md-5 div-about-us-left " >
+          <ul class="about-us-list-left">
+            <li>
+              <h2>Best Selling</h2>
+            
+              <i class="fa fa-shopping-cart"></i>
+            
+              <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna... aliquam erat </p>
+            
+              <button type="button" class="btn btn-default read-more-about-us">Read more</button>
+            </li>
+          
+
+           
+            <li>
+              <h2>Unique Design</h2>
+            
+             <i class="fa fa-pencil"></i>
+            
+              <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna... aliquam erat </p>
+            
+             <button type="button" class="btn btn-default read-more-about-us">Read more</button>
+            </li>
+          </ul>
+
+
+
+
+        </div>
+        <div class="col-md-2"></div>
+        <div class="col-md-5 div-about-us-right">
+          <ul class="about-us-list-right">
+            <li>
+              <h2>Clean Code</h2>
+           
+             <i class="fa fa-code"></i></i>
+            
+              <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna... aliquam erat </p>
+            
+           
+              <button type="button" class="btn btn-default read-more-about-us">Read more</button>
+            </li>
+         
+
+        
+            <li>
+              <h2>Strategy</h2>
+            
+              <i class="fa fa-laptop"></i>
+           
+              <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna... aliquam erat </p>
+            
+              <button type="button" class="btn btn-default read-more-about-us">Read more</button>
+            </li>
+          </ul>
+
+
+        </div>
+
+
+
+
+        </div>
+      </div>
+    </div>
+                          <!-- END OF about-us -->    
+
+  <a id="about" href=""></a>
+    <div class="fluid-container staff">
+      <div class="container">
+
+       <div class="col-md-12 div-of-staff">
+          <h1 class="title-default">OUR TEAM</h1>
+        </div>
+
+        <div class="row lists">
+            <ul>
+            
+              <li class="col-md-4 ">
+                <!-- <center> --><img src="inc/images/ourimg1.png"><!-- </center> -->
+                <h3>Orlando Bloom</h3>
+                <h4>Founder/Leader</h4>
+                <hr class="first-hr-staff">
+                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh... euismod
+                </p>
+                 
+
+                <ul class="first-person-social">
+                  <li><i class="fa fa-facebook fb"></i></li>
+                  <li><i class="fa fa-twitter"></i></li>
+                  <li><i class="fa fa-google-plus"></i> </li>
+                  <li><i class="fa fa-link link-pop" href="" data-toggle="modal" data-target="#about-us-pop-up"></i></li>
+
+                 
+                </ul>
+              
+              </li>
+              <!-- first-person END -->
+
+              <li class="col-md-4">
+                <img src="inc/images/leo.png">
+                <h3>Brad Pitt</h3>
+                <h4>Developer</h4>
+                <hr class="first-hr-staff">
+                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh... euismod </p>
+                
+                 <ul class="first-person-social">
+                  <li><i class="fa fa-facebook fb"></i></li>
+                  <li><i class="fa fa-twitter"></i></li>
+                  <li><i class="fa fa-google-plus"></i> </li>
+                  <li><i class="fa fa-link link-pop" href="" data-toggle="modal" data-target="#about-us-pop-up"></i></li>
+               
+                </ul>
+               
+              </li>
+              <!-- second-person END -->
+
+                <li class="col-md-4">
+                <img src="inc/images/orlando.png">
+                <h3>Leonardo Di Caprio</h3>
+                <h4>Graphic Designer</h4>
+                <hr class="first-hr-staff">
+                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh... euismod</p>
+                
+                <ul class="first-person-social">
+                  <li><i class="fa fa-facebook fb"></i></li>
+                  <li><i class="fa fa-twitter"></i></li>
+                  <li><i class="fa fa-google-plus"></i> </li>
+                  <li><i class="fa fa-link link-pop" href="" data-toggle="modal" data-target="#about-us-pop-up"></i></li>
+                   
+                 
+                </ul>
+              </li>
+            </ul>
+          </div>
+      </div>
+    </div>
+        <!--ENd of staff  -->
+
+
+
+ <!-- pop-up START here -->
+
+       
+           <!--  <div class="row"> -->
+           <div class="row pop-up-staff">
+            
+           <!-- Large modal -->
+            <!-- <button class="btn btn-primary" data-toggle="modal" data-target=".bs-example-modal-lg">Large modal</button> -->
+            
+            <div class="modal fade bs-example-modal-lg pop-up-staff" tabindex="-1" id="about-us-pop-up" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+               <button type="button" class="close close-pop-up-staff" data-dismiss="modal" aria-hidden="true">&times;</button>
+            <div class="modal-dialog modal-lg pop-up-width-staff">
+             <div class="modal-content pop-up-body-staff">
+              
+               <div class="container pop-up-container-staff">
+       
+             <!--    <div class="col-md-1"></div> -->
+                 <div class="col-md-4">
+                   <img src="inc/images/leo.png">
+                 </div>
+
+                 <div class="col-md-8">
+                      <h3>Ragip Qopa</h3>
+                      <h4>Founder/Leader</h4>
+                    
+                       <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim... veniam, quis nostrud exerci tation... ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla </p>
+
+                       <ul class="pop-up-social-staff">
+                         <li><i class="fa fa-facebook"></i></li>
+                         <li><i class="fa fa-twitter"></i></i></li>
+                         <li><i class="fa fa-google-plus"></i></li>
+                         <li><i class="fa fa-linkedin"></i></li>
+                       </ul>
+                        
+                   </div>
+                 <!--  <div class="col-md-1"></div> -->
+              <div class="col-md-6 pop-up-progress">
+                <h1>Skills</h1>
+              <!--  <div class="progress pop-up-progress"> -->
+                <div class="progress pop-up-progress-sc">
+                  <div class="progress-bar progress-bar-success progress-elements" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 90%">
+                    <h4>WEB DESIGN 90%</h4>
+                    <span class="sr-only">90% Complete (success)</span>
+                    
+                  </div>
+                </div>
+                <div class="progress pop-up-progress-sc">
+                  <div class="progress-bar progress-bar-info progress-elements" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 95%">
+                    <span class="sr-only">95% Complete</span>
+                     <h4>HTML/CSS 95%</h4>
+                  </div>
+                </div>
+                <div class="progress pop-up-progress-sc">
+                  <div class="progress-bar progress-bar-warning progress-elements" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%">
+                    <span class="sr-only">60% Complete (warning)</span>
+                     <h4>GRAPHIC DESIGN 60%</h4>
+                  </div>
+                </div>
+
+              
+          </div>
+          <div class="col-md-6"></div>
+
+
+                </div>
+              </div>
+            </div>
+          </div>
+         <!--   </div> -->
+         
+        </div>
+          <!-- pop-up END here -->
+
+
+
+
+    <!-- blockquote START here -->
+
+    <div class="fluid-container blockquote">
+      <div class="container blockquote-container">
+        <div class="opacity-blockquote">
+        <div class="row">
+        <blockquote>‘’The secret to creativity is knowing how to hide your sources’’</blockquote>
+        <p> Albert Einstein</p>
+       </div>
+      </div>
+      </div>
+    </div>
+            <!-- end of blockquote -->
+  <a id="service" href=""></a>
+    <div class="fluid-container services">
+      <div class="container">
+        <div class="row">
+         
+          <div class="col-md-12 title-services">
+            <h1>Services</h1>
+          </div>
+
+           <div class="col-md-12 special-button">
+            <hr class="hr-button">
+              <div class="butonnni">
+                <span>M<strong>H</strong></span>
+              </div>
+            </div>
+        
+           <div class="col-md-12 title-services">
+            <p>Lorem ipsum dolor sit amet, cLorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis </p>
+          </div>
+
+          <ul class="service-list">
+            <li class="col-md-3">
+
+              <h3>ONE PAGE</h3>
+              <div class="div-default">
+               <i class="fa fa-pagelines font-aws1"></i>
+              </div>
+              <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laor... dolore magna</p>
+              <center><button type="button" class="btn btn-default read-more-service">Read more</button></center>
+            </li>
+            <li class="col-md-3">
+               <h3>MULTI PAGE</h3>
+              <div class="div-default">
+                <i class="fa fa-bars"></i>
+              </div>
+              <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laor... dolore magna</p>
+                <center><button type="button" class="btn btn-default read-more-service">Read more</button></center>
+            </li>
+            <li class="col-md-3">
+              <h3>RESPONSIVE</h3>
+              <div class="div-default">
+               <i class="fa fa-compress font-aws2 "></i>
+              </div>
+              <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laor... dolore magna</p>
+               <center><button type="button" class="btn btn-default read-more-service">Read more</button></center>
+            </li>
+            <li class="col-md-3">
+               <h3>UNIQUE</h3>
+              <div class="div-default">
+                <i class="fa fa-heart-o"></i>
+              </div>
+              <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laor... dolore magna</p>
+               <center><button type="button" class="btn btn-default read-more-service">Read more</button></center>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+          <!-- END OF services -->
+
+<div class="fluid-container">
+  <div class="container">
+    <div class="row">
+       <div>
+            <ul class="row second-service-list">
+              <li class="col-md-3">
+                <h2>543</h2>
+                <i class="fa fa-heart-o"></i>
+                <h3>Unique Project</h3>
+              </li>
+             <li class="col-md-3">
+                <h2>486</h2>
+                <i class="fa fa-smile-o smile"></i>
+                <h3>Happy Costumers</h3>
+              </li>
+             <li class="col-md-3">
+                <h2>1024</h2>
+               <i class="fa fa-trophy"></i>
+                <h3>Winner Awards</h3>
+              </li>
+              <li class="col-md-3">
+                <h2>1423</h2>
+                <i class="fa fa-map-marker"></i>
+                
+                <h3>Places Worldwide</h3>
+              </li>
+            </ul>
+          </div>
+    </div>
+  </div>
+</div>
+
+
+   <a id="portfolio" href="#"></a>
+      <div class="fluid-container portfolio">
+       
+        <div class="container container-portfolio">
+          <div class="col-md-12 div-of-portfolio">
+              <h1 class="title-default">Portfolio</h1>
+          </div>
+        <div class="col-md-12 special-button">
+            <hr class="hr-button">
+              <div class="butonnni">
+                <span>M<strong>H</strong></span>
+              </div>
+        </div>
+          <div class="col-md-12 ">
+            <ul class="portfolio-menu">
+              <li><a href="#">All</a></li>
+              <li><a href="#">Photos</a></li>              
+              <li><a href="#">Videos</a></li>              
+              <li><a href="#">Animation</a></li>              
+            </ul>
+          </div>
+
+          <div class="row">
+            <ul class="portfolio-list">
+              <li class="col-md-3 col-xs-6">
+                <figure>
+                  <img src="inc/images/portfolio.png">
+                   <figcaption> 
+                      <ul class="social-portfolio">
+                          <li>
+                             <a href="" data-toggle="modal" data-target="#poooo">
+                              <i class="fa fa-search-plus"></i>
+                            </a>
+                          </li>
+                          <li>
+                              <i class="fa fa-link"></i>
+                          </li>
+                      </ul> 
+                   </figcaption>
+                </figure>
+               </li>
+               <li class="col-md-3 col-xs-6">
+                <figure>
+                  <img src="inc/images/portfolio1.png">
+                   <figcaption> 
+                      <ul class="social-portfolio">
+                          <li>
+                             <a href="" data-toggle="modal" data-target="#poooo">
+                               <i class="fa fa-search-plus"></i>
+                            </a>
+                          </li>
+                          <li>
+                              <i class="fa fa-link"></i>
+                          </li>
+                      </ul> 
+                   </figcaption>
+                </figure>
+               </li>
+               <li class="col-md-3 col-xs-6">
+                <figure>
+                  <img src="inc/images/portfolio2.png">
+                   <figcaption> 
+                      <ul class="social-portfolio">
+                          <li>
+                             <a href="" data-toggle="modal" data-target="#poooo">
+                              <i class="fa fa-search-plus"></i>
+                            </a>
+                          </li>
+                          <li>
+                              <i class="fa fa-link"></i>
+                          </li>
+                      </ul> 
+                   </figcaption>
+                </figure>
+               </li>
+               <li class="col-md-3 col-xs-6">
+                <figure>
+                  <img src="inc/images/portfolio3.png">
+                   <figcaption> 
+                      <ul class="social-portfolio">
+                          <li>
+                             <a href="" data-toggle="modal" data-target="#poooo">
+                              <i class="fa fa-search-plus"></i>
+                            </a>
+                          </li>
+                          <li>
+                              <i class="fa fa-link"></i>
+                          </li>
+                      </ul> 
+                   </figcaption>
+                </figure>
+               </li>
+               <li class="col-md-3 col-xs-6">
+                <figure>
+                  <img src="inc/images/portfolio4.png">
+                   <figcaption> 
+                      <ul class="social-portfolio">
+                          <li>
+                             <a href="" data-toggle="modal" data-target="#poooo">
+                              <i class="fa fa-search-plus"></i>
+                            </a>
+                          </li>
+                          <li>
+                              <i class="fa fa-link"></i>
+                          </li>
+                      </ul> 
+                   </figcaption>
+                </figure>
+               </li>
+               <li class="col-md-3 col-xs-6">
+                <figure>
+                  <img src="inc/images/portfolio5.png">
+                   <figcaption> 
+                      <ul class="social-portfolio">
+                          <li>
+                             <a href="" data-toggle="modal" data-target="#poooo">
+                              <i class="fa fa-search-plus"></i>
+                            </a>
+                          </li>
+                          <li>
+                               <i class="fa fa-link"></i>
+                          </li>
+                      </ul> 
+                   </figcaption>
+                </figure>
+               </li>
+               <li class="col-md-3 col-xs-6">
+                <figure>
+                  <img src="inc/images/portfolio6.png">
+                   <figcaption> 
+                      <ul class="social-portfolio">
+                          <li>
+                             <a href="" data-toggle="modal" data-target="#poooo">
+                               <i class="fa fa-search-plus"></i>
+                            </a>
+                          </li>
+                          <li>
+                              <i class="fa fa-link"></i>
+                          </li>
+                      </ul> 
+                   </figcaption>
+                </figure>
+               </li>
+               <li class="col-md-3 col-xs-6">
+                <figure>
+                  <img src="inc/images/portfolio1.png">
+                   <figcaption> 
+                      <ul class="social-portfolio">
+                          <li>
+                             <a href="" data-toggle="modal" data-target="#poooo">
+                              <i class="fa fa-search-plus"></i>
+                            </a>
+                          </li>
+                          <li>
+                              <i class="fa fa-link"></i>
+                          </li>
+                      </ul> 
+                   </figcaption>
+                </figure>
+               </li>
+               <li class="col-md-3 col-xs-6">
+                <figure>
+                  <img src="inc/images/portfolio2.png">
+                   <figcaption> 
+                      <ul class="social-portfolio">
+                          <li>
+                             <a href="" data-toggle="modal" data-target="#poooo">
+                               <i class="fa fa-search-plus"></i>
+                            </a>
+                          </li>
+                          <li>
+                              <i class="fa fa-link"></i>
+                          </li>
+                      </ul> 
+                   </figcaption>
+                </figure>
+               </li>
+               <li class="col-md-3 col-xs-6">
+                <figure>
+                  <img src="inc/images/portfolio3.png">
+                   <figcaption> 
+                      <ul class="social-portfolio">
+                          <li>
+                             <a href="" data-toggle="modal" data-target="#poooo">
+                               <i class="fa fa-search-plus"></i>
+                            </a>
+                          </li>
+                          <li>
+                              <i class="fa fa-link"></i>
+                          </li>
+                      </ul> 
+                   </figcaption>
+                </figure>
+               </li>
+               <li class="col-md-3 col-xs-6">
+                <figure>
+                  <img src="inc/images/portfolio4.png">
+                   <figcaption> 
+                      <ul class="social-portfolio">
+                          <li>
+                             <a href="" data-toggle="modal" data-target="#poooo">
+                              <i class="fa fa-search-plus"></i>
+                            </a>
+                          </li>
+                          <li>
+                              <i class="fa fa-link"></i>
+                          </li>
+                      </ul> 
+                   </figcaption>
+                </figure>
+               </li>
+               <li class="col-md-3 col-xs-6">
+                <figure>
+                  <img src="inc/images/portfolio5.png">
+                   <figcaption> 
+                      <ul class="social-portfolio">
+                          <li>
+                             <a href="" data-toggle="modal" data-target="#poooo">
+                              <i class="fa fa-search-plus"></i>
+                            </a>
+                          </li>
+                          <li>
+                             <i class="fa fa-link"></i>
+                          </li>
+                      </ul> 
+                   </figcaption>
+                </figure>
+               </li>
+            </ul>
+            <div class="col-md-12 pages">
+              <center>
+             <ul class="pagination pages-portfolio">
+                <li><a href="#">&laquo;</a></li>
+                <li><a href="#">1</a></li>
+                <li><a href="#">2</a></li>
+                <li><a href="#">3</a></li>
+                <li><a href="#">4</a></li>
+                <li><a href="#">5</a></li>
+                <li><a href="#">6</a></li>
+                <li><a href="#">7</a></li>
+                <li><a href="#">8</a></li>
+                <li><a href="#">9</a></li>
+                <li><a href="#">10</a></li>
+                <li><a href="#">&raquo;</a></li>
+              </ul>
+              </center>
+          </div>
+          </div>
+        </div>
+      </div>
+          <!-- END OF portfolio -->
+
+
+          <div class="container">
+           <div class="row pop-up">
+            
+           <!-- Large modal -->
+            <!-- <button class="btn btn-primary" data-toggle="modal" data-target=".bs-example-modal-lg">Large modal</button> -->
+
+            <div class="modal fade bs-example-modal-lg " tabindex="-1" id="poooo" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+
+              <div class="modal-dialog modal-lg pop-up-width">
+                <div class="container">
+                <div class="modal-content pop-up-body">
+                   <button type="button" class="close close-pop-up" data-dismiss="modal" aria-hidden="true">&times;</button>
+                 <img src="inc/images/portfolio1.png">
+                 <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim.... pacerat facer possim assum. Typi non habent claritatem Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie  </p>
+                 <ul class="pop-up-social">
+                   <li><i class="fa fa-facebook"></i></li>
+                   <li><i class="fa fa-twitter"></i></i></li>
+                   <li><i class="fa fa-google-plus"></i></li>
+                   <li><i class="fa fa-linkedin"></i></li>
+                   <li><i class="fa fa-pinterest"></i></i></li>
+                   
+                 </ul>
+                </div>
+              </div>
+              </div>
+            </div>
+          <!--  </div> -->
+          </div>
+        </div>
+
+
+
+
+
+        <a id="pricing" href=""></a>
+      <div class="fluid-container pricing">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12 title-default">
+             <h1 class="title-default">Pricing</h1>
+            </div>
+
+        <div class="col-md-12 special-button">
+
+            <hr class="hr-button">
+              <div class="butonnni">
+                 <span>M<strong>H</strong></span>
+              </div>
+            
+        </div>
+        <div class="col-md-3 niti">
+          <ul class="first-ofer">
+                <li class="first-list">
+                   <h3>Personal</h3>
+                  <h3>99$</h3>
+                  <span>per month</span>
+                </li>
+                <li>20 Projects</li>
+                <li>10 GB Storage</li>
+                <li>Free live Support</li>
+                <li>5 Year License</li>
+                <li>Costomization</li>
+                <li class="buy-buton">
+                  <button type="button" class="btn btn-default button-price">Sing Up</button>
+                </li>
+              </ul>
+          </div>
+           <div class="col-md-3">
+          <ul class="first-ofer">
+                <li>
+                  <h3>Personal</h3>
+                  <h3>99$</h3>
+                  <span>per month</span>
+                </li> 
+                <li>20 Projects</li>
+                <li>10 GB Storage</li>
+                <li>Free live Support</li>
+                <li>5 Year License</li>
+                <li>Costomization</li>
+                <li class="buy-buton"><button type="button" class="btn btn-default button-price">Sing Up</button></li>
+            </ul>
+          </div>
+           <div class="col-md-3">
+          <ul class="first-ofer">
+              <li>
+                <h3>Personal</h3>
+                  <h3>99$</h3>
+                  <span>per month</span>
+                </li>
+                <li>20 Projects</li>
+                <li>10 GB Storage</li>
+                <li>Free live Support</li>
+                <li>5 Year License</li>
+                <li>Costomization</li>
+                <li class="buy-buton"><button type="button" class="btn btn-default button-price">Sing Up</button></li>
+              </ul>
+          </div> <div class="col-md-3">
+          <ul class="first-ofer">
+              <li>
+                <h3>Personal</h3>
+                  <h3>99$</h3>
+                  <span>per month</span>
+                </li>
+                <li>20 Projects</li>
+                <li>10 GB Storage</li>
+                <li>Free live Support</li>
+                <li>5 Year License</li>
+                <li>Costomization</li>
+                <li class="buy-buton"><button type="button" class="btn btn-default button-price">Sing Up</button></li>
+              </ul>
+          </div>
+
+
+
+           
+          </div>
+        </div>
+      </div>
+
+                      <!-- END OF pricing -->
+
+                      <!-- costumer-start here -->
+    <div class="fluid-container">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 title-default">
+             <h1 class="title-default">Happy Costumers</h1>
+            </div>
+
+
+           <div class="row costumers-list">
+              <ul>
+                <li><img src="inc/images/costumer3.png"></li>
+                <li><img src="inc/images/costumer4.png"></li>
+                <li><img src="inc/images/costumer3.png"></li>
+                <li><img src="inc/images/costumer2.png"></li>
+              </ul>
+            </div>
+
+        </div>
+      </div>
+    </div>
+           <!-- costumer-end here -->
+       <a id="contact" href=""></a>    
+      <div class="fluid-container contact">
+        <div class="container">
+          <div class="row">
+              <div class="col-md-12">
+               <h1 class="title-default">Contact</h1>
+              </div>
+              <div class="col-md-12 special-button">
+                <hr class="hr-button">
+                <div class="butonnni">
+                  <span>M<strong>H</strong></span>
+                </div>
+              </div>    
+              <div class="col-md-6 contact-left">
+                <form class="form-horizontal" role="form">
+                    <div class="form-group">
+                      <label for="inputEmail3" class="control-label"></label>
+                      
+                        <input type="email" class="form-control" id="inputEmail3" placeholder="Name">
+                    
+                    </div>
+                    <div class="form-group">
+                      <label for="inputPassword3" class="control-label"></label>
+                      
+                        <input type="password" class="form-control" id="inputPassword3" placeholder="Email">
+                     
+                    </div>
+                    <div class="form-group">
+                      <label for="inputPassword3" class="control-label"></label>
+                   
+                        <input type="password" class="form-control" id="inputPassword3" placeholder="Subject">
+                     
+                    </div>
+                    
+                   
+                  </form>
+              </div>
+              <div class="col-md-6 contact-right">
+                <textarea class="form-control" rows="3" placeholder="enter your message"></textarea>
+                 <button type="submit" class="btn btn-default send-meessage">Send</button>
+              </div>
+          
+         
+          </div>
+        </div>
+      </div>
+          <!-- END OF contact -->
+
+
+        <div class="fluid-container find-us">
+          <!-- <div class="container"> -->
+               <div class="panel panel-default panel-contact ">
+                          <div class="panel-heading show-map-collapse">
+                            <h4 class="panel-title show-title">
+                              <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
+                                Show Map
+                                 <i class="fa markeri fa-map-marker show-marker"></i>
+                              </a>
+                            </h4>
+                          </div>
+                          <div id="collapseThree" class="panel-collapse collapse ">
+                            <div class="panel-body iframe-panel iframe-body">
+                              <iframe style="overflow: hidden;" src="https://mapsengine.google.com/map/embed?mid=zh42NA4bMLnM.kEiziU_FkSOk" width="100%" height="500px;">
+                               </iframe>
+                            </div>
+                          </div>    
+                        </div>
+                      </div>
+         <!--  </div> -->
+        </div>
+              <!-- end of find-us -->
+
+
+ <a id="all-footer" href=""></a>    
+    <div class="fluid-container footer">
+      <div class="container footer-container">
+        <div class="row">
+          <div class="col-md-12 div-footer">
+            <h1 class="title-footer">MACHINE
+            <span>HEAD</span>
+            </h1>
+          </div>
+        
+
+          <ul class="footer-social">
+             <li><i class="fa fa-facebook facebook"></i></li>
+             <li><i class="fa fa-twitter"></i> </li>
+             <li><i class="fa fa-google-plus"></i> </li>
+             <li><i class="fa fa-skype"></i></li>
+             <li><i class="fa fa-pinterest"></i> </li>
+            
+           </ul>
+           <div class="col-md-12 last-arow">
+            <ul>
+              <li>
+                <a id="go-to-top" href="#"> <i class="fa fa-angle-up"></i></a>
+              </li>
+             
+            </ul>
+           </div>
+         </div>
+        </div>
+      </div>
+    
+        <!-- END OF footer -->
+
+
+
+
+
+
+
+  
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+     <script src="inc/js/bootstrap.min.js"></script>
+      <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>  
+    
+        <script type="text/javascript" src="inc/js/plugins/SmoothScroll.js"></script>
+            <script type="text/javascript" src="inc/js/smoothscroll.js"></script>
+  <script>
+      $('#go-to-top').click(function () {
+          $(window.opera ? 'html' : 'html, body').animate({
+              scrollTop: 0 
+          }, 1000); // 
+      })
+    </script>
+    <script >
+      $('#my-affix').affix({
+    offset: {
+      top: 100
+    , bottom: function () {
+        return (this.bottom = $('.footer').outerHeight(true))
+      }
+    }
+  })
+    </script>
+
+
+  </body>
+</html>

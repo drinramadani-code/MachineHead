@@ -1,0 +1,773 @@
+/*<--------------RED-------------->*/ 
+.red .logo h1,
+.red .menuja-all li a,
+.red .buttoni-trimi,
+.red .arrow-slider i,
+.red .div-of-slide strong,
+.red .div-of-slide i,
+.red .lists h4,
+.red .read-more-about-us,
+.red .about-us-list-left li:hover i,
+.red .about-us-list-right li:hover i,
+.red .colorize-button,
+.red .service-list li:hover h3,
+.red .div-default i,
+.red .read-more-service,
+.red .second-service-list h2,
+.red .second-service-list i,
+.red .first-ofer h3,
+.red .send-meessage,
+.red .last-arow i,
+.red .link-pop:hover,
+.red .portfolio-menu a:hover,
+.red .first-ofer:hover .button-price,
+.red .pop-up-body-staff h4,
+.red .blog-list-first li i,
+.red .blog-list-first p,
+.red .blog-list-first span,
+.red .all-list-blog li a,
+.red .search-img-blog,
+.red .read-more-blog,
+.red ::selection ,
+.red .menuja-all li a:active
+{
+	color: red !important;
+}
+.red .carousel-indicators li,
+.red .about-us-list-left li,
+.red .read-more-about-us:hover,
+.red .read-more-about-us,
+.red .about-us-list-right li,
+.red .div-default,
+.red .read-more-service:hover,
+.red .read-more-service,
+.red .second-service-list i,
+.red .contact-left input,
+.red .contact-right textarea,
+.red .send-meessage,
+.red .show-map-collapse a,
+.red .pages-portfolio li a:hover,
+.red .button-price,
+.red .pop-up-body-staff p,
+.red .menuja-all li a:hover,
+.red .drop-down-menu li,
+.red .hr-menu,
+.red .search-top,
+.red .blog-left,
+.red .read-more-blog,
+.red .right-blog,
+.red .blog-right,
+.red .blog-list-first,
+.red .all-list-blog li a,
+.red .pages-blog li a:hover,
+.red .all-list-blog li:hover,
+.red .div-of-slide h1,
+.red .menuja-all li a:active
+{
+	border-color: red!important;
+
+}
+.red .carousel-indicators li.active,
+.red .butonnni,
+.red .read-more-about-us:hover,
+.red .first-person-social li i:hover,
+.red .service-list li:hover .div-default,
+.red .read-more-service:hover,
+.red .second-service-list i:hover,
+.red .first-ofer:hover,
+.red .send-meessage:hover,
+.red .show-map-collapse a:hover,
+.red .footer,
+.red .button-price,
+.red .pop-up-social-staff li i:hover,
+.red .progress-elements,
+.red .pop-up-social i:hover,
+.red .footer-social li i:hover,
+.red .drop-down-menu > li > a:hover,
+.red .social-portfolio li i,
+.red .read-more-blog:hover,
+.red .service-list li:hover .read-more-service
+{
+	background-color: red!important;
+}
+
+.red .first-person-social .link-pop:hover{
+	background: transparent !important;
+}
+.red .footer-social,
+.red .last-arow i
+{
+	background-color: rgba(228, 65, 65, 0.9);
+}
+.red .social-portfolio li i{
+	background-color: rgba(255, 0, 0, 0.8) !important;
+}
+.red .last-arow i:hover{
+	color: #fff !important;
+}
+
+
+
+
+
+/*<--------------BLUE-------------->*/ 
+.blue .logo h1,
+.blue .menuja-all li a,
+.blue .buttoni-trimi,
+.blue .arrow-slider i,
+.blue .div-of-slide strong,
+.blue .div-of-slide i,
+.blue .lists h4,
+.blue .read-more-about-us,
+.blue .about-us-list-left li:hover i,
+.blue .about-us-list-right li:hover i,
+.blue .colorize-button,
+.blue .service-list li:hover h3,
+.blue .div-default i,
+.blue .read-more-service,
+.blue .second-service-list h2,
+.blue .second-service-list i,
+.blue .first-ofer h3,
+.blue .send-meessage,
+.blue .last-arow i,
+.blue .link-pop:hover,
+.blue .portfolio-menu a:hover,
+.blue .first-ofer:hover .button-price,
+.blue .pop-up-body-staff h4,
+.blue .blog-list-first li i,
+.blue .blog-list-first p,
+.blue .blog-list-first span,
+.blue .all-list-blog li a,
+.blue .search-img-blog,
+.blue .read-more-blog,
+.blue ::selection, 
+.blue .menuja-all li a:active
+{
+	color: rgb(88,155,199)!important;
+}
+.blue .carousel-indicators li,
+.blue .about-us-list-left li,
+.blue .read-more-about-us:hover,
+.blue .read-more-about-us,
+.blue .about-us-list-right li,
+.blue .div-default,
+.blue .read-more-service:hover,
+.blue .read-more-service,
+.blue .second-service-list i,
+.blue .contact-left input,
+.blue .contact-right textarea,
+.blue .send-meessage,
+.blue .show-map-collapse a,
+.blue .pages-portfolio li a:hover,
+.blue .button-price,
+.blue .pop-up-body-staff p,
+.blue .menuja-all li a:hover,
+.blue .drop-down-menu li,
+.blue .hr-menu,
+.blue .search-top,
+.blue .blog-left,
+.blue .read-more-blog,
+.blue .right-blog,
+.blue .blog-right,
+.blue .blog-list-first,
+.blue .all-list-blog li a,
+.blue .pages-blog li a:hover,
+.blue .all-list-blog li:hover,
+.blue .div-of-slide h1,
+.blue .menuja-all li a:active
+{
+	border-color: rgb(88,155,199) !important;
+
+}
+.blue .carousel-indicators li.active,
+.blue .butonnni,
+.blue .read-more-about-us:hover,
+.blue .first-person-social li i:hover,
+.blue .service-list li:hover .div-default,
+.blue .read-more-service:hover,
+.blue .second-service-list i:hover,
+.blue .first-ofer:hover,
+.blue .send-meessage:hover,
+.blue .show-map-collapse a:hover,
+.blue .footer,
+.blue .button-price,
+.blue .pop-up-social-staff li i:hover,
+.blue .progress-elements,
+.blue .pop-up-social i:hover,
+.blue .footer-social li i:hover,
+.blue .drop-down-menu > li > a:hover,
+.blue .social-portfolio li i,
+.blue .read-more-blog:hover,
+.blue .service-list li:hover .read-more-service
+{
+	background-color: rgb(88,155,199)!important;
+}
+.blue .contact-forma-panel-body{
+background-color: rgba(255, 0, 0, 0.75)!important;
+}
+
+.blue .first-person-social .link-pop:hover{
+	background: transparent !important;
+}
+.blue .footer-social,
+.blue .last-arow i
+{
+	background-color: rgba(125, 123, 160, 0.9);
+}
+.blue .social-portfolio li i{
+	background-color: rgba(88, 155, 199, 0.8) !important;
+}
+.blue .last-arow i:hover{
+	color: #fff !important;
+}
+.blue .footer-social li i{
+	color: rgba(125, 123, 160, 0.9);
+}
+
+
+
+
+
+
+
+
+/*<--------------ORANGE-------------->*/ 
+.orange .logo h1,
+.orange .menuja-all li a,
+.orange .buttoni-trimi,
+.orange .arrow-slider i,
+.orange .div-of-slide strong,
+.orange .div-of-slide i,
+.orange .lists h4,
+.orange .read-more-about-us,
+.orange .about-us-list-left li:hover i,
+.orange .about-us-list-right li:hover i,
+.orange .colorize-button,
+.orange .service-list li:hover h3,
+.orange .div-default i,
+.orange .read-more-service,
+.orange .second-service-list h2,
+.orange .second-service-list i,
+.orange .first-ofer h3,
+.orange .send-meessage,
+.orange .last-arow i,
+.orange .link-pop:hover,
+.orange .portfolio-menu a:hover,
+.orange .first-ofer:hover .button-price,
+.orange .pop-up-body-staff h4,
+.orange .blog-list-first li i,
+.orange .blog-list-first p,
+.orange .blog-list-first span,
+.orange .all-list-blog li a,
+.orange .search-img-blog,
+.orange .read-more-blog
+
+{
+	/*color: #ff6633 !important;*/
+}
+.orange .carousel-indicators li,
+.orange .about-us-list-left li,
+.orange .read-more-about-us:hover,
+.orange .read-more-about-us,
+.orange .about-us-list-right li,
+.orange .div-default,
+.orange .read-more-service:hover,
+.orange .read-more-service,
+.orange .second-service-list i,
+.orange .contact-left input,
+.orange .contact-right textarea,
+.orange .send-meessage,
+.orange .show-map-collapse a,
+.orange .pages-portfolio li a:hover,
+.orange .button-price,
+.orange .pop-up-body-staff p,
+.orange .menuja-all li a:hover,
+.orange .drop-down-menu li,
+.orange .hr-menu,
+.orange .search-top,
+.orange .blog-left,
+.orange .read-more-blog,
+.orange .right-blog,
+.orange .blog-right,
+.orange .blog-list-first,
+.orange .all-list-blog li a,
+.orange .pages-blog li a:hover,
+.orange .all-list-blog li:hover,
+.orange .div-of-slide h1
+{
+	/*border-color: #ff6633!important;*/
+
+}
+.orange .carousel-indicators li.active,
+.orange .butonnni,
+.orange .read-more-about-us:hover,
+.orange .first-person-social li i:hover,
+.orange .div-default:hover,
+.orange .read-more-service:hover,
+.orange .second-service-list i:hover,
+.orange .first-ofer:hover,
+.orange .send-meessage:hover,
+.orange .show-map-collapse a:hover,
+.orange .footer,
+.orange .button-price,
+.orange .pop-up-social-staff li i:hover,
+.orange .progress-elements,
+.orange .pop-up-social i:hover,
+.orange .footer-social li i:hover,
+.orange .drop-down-menu > li > a:hover,
+.orange .social-portfolio li i,
+.orange .read-more-blog:hover
+
+{
+	/*background-color: #ff6633!important;*/
+}
+
+
+/*<--------------BLACK-------------->*/ 
+.black .logo h1,
+.black .menuja-all li a,
+.black .buttoni-trimi,
+.black .arrow-slider i,
+.black .div-of-slide strong,
+.black .div-of-slide i,
+.black .lists h4,
+.black .read-more-about-us,
+.black .about-us-list-left li:hover i,
+.black .about-us-list-right li:hover i,
+
+.black .service-list li:hover h3,
+.black .div-default i,
+.black .read-more-service,
+.black .second-service-list h2,
+.black .second-service-list i,
+.black .first-ofer h3,
+.black .send-meessage,
+.black .last-arow i,
+.black .link-pop:hover,
+.black .portfolio-menu a:hover,
+.black .first-ofer:hover .button-price,
+.black .pop-up-body-staff h4
+
+{
+	color: black!important;
+}
+.black .carousel-indicators li,
+.black .about-us-list-left li,
+.black .read-more-about-us:hover,
+.black .read-more-about-us,
+.black .about-us-list-right li,
+.black .div-default,
+.black .read-more-service:hover,
+.black .read-more-service,
+.black .second-service-list i,
+.black .contact-left input,
+.black .contact-right textarea,
+.black .send-meessage,
+.black .show-map-collapse a,
+.black .pages-portfolio li a:hover,
+.black .button-price,
+.black .pop-up-body-staff p,
+.black .menuja-all li a:hover,
+.black .drop-down-menu li,
+.black .hr-menu,
+.black .search-top,
+.black .div-of-slide h1
+{
+	border-color: black!important;
+
+}
+.black .carousel-indicators li.active,
+.black .butonnni,
+.black .read-more-about-us:hover,
+.black .first-person-social li i:hover,
+.black .div-default:hover,
+.black .read-more-service:hover,
+.black .second-service-list i:hover,
+.black .first-ofer:hover,
+.black .send-meessage:hover,
+.black .show-map-collapse a:hover,
+.black .footer,
+.black .button-price,
+.black .pop-up-social-staff li i:hover,
+.black .progress-elements,
+.black .pop-up-social i:hover,
+.black .footer-social li i:hover,
+.black .drop-down-menu > li > a:hover
+{
+	background-color: black!important;
+}
+
+.black .contact-forma-panel-body{
+background-color: rgba(255, 0, 0, 0.75)!important;
+}
+
+.black .first-person-social .link-pop:hover{
+	background: transparent !important;
+}
+.black .footer-social,
+.black .last-arow i
+{
+	background-color: rgb(58, 54, 58);
+}
+.black .social-portfolio li i{
+	background-color: rgba(0, 0, 0, 0.8);
+}
+.black .last-arow i:hover{
+	color: #fff !important;
+}
+.black .footer-social li i{
+	color: rgb(58, 54, 58);
+}
+
+
+
+
+
+
+/*<--------------PURPLE-------------->*/ 
+.purple .logo h1,
+.purple .menuja-all li a,
+.purple .buttoni-trimi,
+.purple .arrow-slider i,
+.purple .div-of-slide strong,
+.purple .div-of-slide i,
+.purple .lists h4,
+.purple .read-more-about-us,
+.purple .about-us-list-left li:hover i,
+.purple .about-us-list-right li:hover i,
+.purple .colorize-button,
+.purple .service-list li:hover h3,
+.purple .div-default i,
+.purple .read-more-service,
+.purple .second-service-list h2,
+.purple .second-service-list i,
+.purple .first-ofer h3,
+.purple .send-meessage,
+.purple .last-arow i,
+.purple .link-pop:hover,
+.purple .portfolio-menu a:hover,
+.purple .first-ofer:hover .button-price,
+.purple .pop-up-body-staff h4,
+.purple .blog-list-first li i,
+.purple .blog-list-first p,
+.purple .blog-list-first span,
+.purple .all-list-blog li a,
+.purple .search-img-blog,
+.purple .read-more-blog,
+.purple ::selection,
+.purple .menuja-all li a:active 
+{
+	color: purple!important;
+}
+.purple .carousel-indicators li,
+.purple .about-us-list-left li,
+.purple .read-more-about-us:hover,
+.purple .read-more-about-us,
+.purple .about-us-list-right li,
+.purple .div-default,
+.purple .read-more-service:hover,
+.purple .read-more-service,
+.purple .second-service-list i,
+.purple .contact-left input,
+.purple .contact-right textarea,
+.purple .send-meessage,
+.purple .show-map-collapse a,
+.purple .pages-portfolio li a:hover,
+.purple .button-price,
+.purple .pop-up-body-staff p,
+.purple .menuja-all li a:hover,
+.purple .drop-down-menu li,
+.purple .hr-menu,
+.purple .search-top,
+.purple .blog-left,
+.purple .read-more-blog,
+.purple .right-blog,
+.purple .blog-right,
+.purple .blog-list-first,
+.purple .all-list-blog li a,
+.purple .pages-blog li a:hover,
+.purple .all-list-blog li:hover,
+.purple .div-of-slide h1,
+.purple .menuja-all li a:active
+{
+	border-color: purple!important;
+
+}
+.purple .carousel-indicators li.active,
+.purple .butonnni,
+.purple .read-more-about-us:hover,
+.purple .first-person-social li i:hover,
+.purple .service-list li:hover .div-default,
+.purple .read-more-service:hover,
+.purple .second-service-list i:hover,
+.purple .first-ofer:hover,
+.purple .send-meessage:hover,
+.purple .show-map-collapse a:hover,
+.purple .footer,
+.purple .button-price,
+.purple .pop-up-social-staff li i:hover,
+.purple .progress-elements,
+.purple .pop-up-social i:hover,
+.purple .footer-social li i:hover,
+.purple .drop-down-menu > li > a:hover,
+.purple .social-portfolio li i,
+.purple .read-more-blog:hover,
+.purple .service-list li:hover .read-more-service
+{
+	background-color: purple!important;
+}
+
+.purple .contact-forma-panel-body{
+background-color: rgba(255, 0, 0, 0.75)!important;
+}
+
+.purple .first-person-social .link-pop:hover{
+	background: transparent !important;
+}
+.purple .footer-social,
+.purple .last-arow i
+{
+	background-color: rgb(158, 41, 158);
+}
+.purple .social-portfolio li i{
+	background-color: rgba(128, 0, 128, 0.8) !important;
+}
+.purple .last-arow i:hover{
+	color: #fff !important;
+}
+.purple .footer-social li i{
+	color: rgb(158, 41, 158);
+}
+
+
+
+
+/*<--------------GREEN-------------->*/ 
+.green .logo h1,
+.green .menuja-all li a,
+.green .buttoni-trimi,
+.green .arrow-slider i,
+.green .div-of-slide strong,
+.green .div-of-slide i,
+.green .lists h4,
+.green .read-more-about-us,
+.green .about-us-list-left li:hover i,
+.green .about-us-list-right li:hover i,
+.green .colorize-button,
+.green .service-list li:hover h3,
+.green .div-default i,
+.green .read-more-service,
+.green .second-service-list h2,
+.green .second-service-list i,
+.green .first-ofer h3,
+.green .send-meessage,
+.green .last-arow i,
+.green .link-pop:hover,
+.green .portfolio-menu a:hover,
+.green .first-ofer:hover .button-price,
+.green .pop-up-body-staff h4,
+.green .blog-list-first li i,
+.green .blog-list-first p,
+.green .blog-list-first span,
+.green .all-list-blog li a,
+.green .search-img-blog,
+.green .read-more-blog,
+.green ::selection,
+.green .menuja-all li a:active 
+{
+	color: #42a251!important;
+}
+.green .footer-social li i{
+	color: #94E485;
+}
+
+
+
+.green .carousel-indicators li,
+.green .about-us-list-left li,
+.green .read-more-about-us:hover,
+.green .read-more-about-us,
+.green .about-us-list-right li,
+.green .div-default,
+.green .read-more-service:hover,
+.green .read-more-service,
+.green .second-service-list i,
+.green .contact-left input,
+.green .contact-right textarea,
+.green .send-meessage,
+.green .show-map-collapse a,
+.green .pages-portfolio li a:hover,
+.green .button-price,
+.green .pop-up-body-staff p,
+.green .menuja-all li a:hover,
+.green .drop-down-menu li,
+.green .hr-menu,
+.green .search-top,
+.green .blog-left,
+.green .read-more-blog,
+.green .right-blog,
+.green .blog-right,
+.green .blog-list-first,
+.green .all-list-blog li a,
+.green .pages-blog li a:hover,
+.green .all-list-blog li:hover,
+.green .div-of-slide h1,
+.green .menuja-all li a:active
+{
+	border-color: #42a251!important;
+
+}
+.green .carousel-indicators li.active,
+.green .butonnni,
+.green .read-more-about-us:hover,
+.green .first-person-social li i:hover,
+.green .service-list li:hover .div-default,
+.green .read-more-service:hover,
+.green .second-service-list i:hover,
+.green .first-ofer:hover,
+.green .send-meessage:hover,
+.green .show-map-collapse a:hover,
+.green .footer,
+.green .button-price,
+.green .pop-up-social-staff li i:hover,
+.green .progress-elements,
+.green .pop-up-social i:hover,
+.green .footer-social li i:hover,
+.green .drop-down-menu > li > a:hover,
+.green .social-portfolio li i,
+.green .read-more-blog:hover,
+.green .service-list li:hover .read-more-service
+{
+	background-color: #42a251!important;
+}
+
+
+
+.green .first-person-social .link-pop:hover{
+	background: transparent !important;
+}
+.green .footer-social,
+.green .last-arow i
+{
+	background-color: #94E485;
+}
+.green .social-portfolio li i{
+	background-color: rgba(66, 162, 81, 0.8) !important;
+}
+.green .last-arow i:hover{
+	color: #fff !important;
+}
+
+/*<--------------CORAL-------------->*/ 
+.coral .logo h1,
+.coral .menuja-all li a,
+.coral .buttoni-trimi,
+.coral .arrow-slider i,
+.coral .div-of-slide strong,
+.coral .div-of-slide i,
+.coral .lists h4,
+.coral .read-more-about-us,
+.coral .about-us-list-left li:hover i,
+.coral .about-us-list-right li:hover i,
+.coral .colorize-button,
+.coral .service-list li:hover h3,
+.coral .div-default i,
+.coral .read-more-service,
+.coral .second-service-list h2,
+.coral .second-service-list i,
+.coral .first-ofer h3,
+.coral .send-meessage,
+.coral .last-arow i,
+.coral .link-pop:hover,
+.coral .portfolio-menu a:hover,
+.coral .first-ofer:hover .button-price,
+.coral .pop-up-body-staff h4,
+.coral .blog-list-first li i,
+.coral .blog-list-first p,
+.coral .blog-list-first span,
+.coral .all-list-blog li a,
+.coral .search-img-blog,
+.coral .read-more-blog,
+.coral ::selection,
+.coral .menuja-all li a:active 
+{
+	color: #b13333!important;
+}
+.coral .carousel-indicators li,
+.coral .about-us-list-left li,
+.coral .read-more-about-us:hover,
+.coral .read-more-about-us,
+.coral .about-us-list-right li,
+.coral .div-default,
+.coral .read-more-service:hover,
+.coral .read-more-service,
+.coral .second-service-list i,
+.coral .contact-left input,
+.coral .contact-right textarea,
+.coral .send-meessage,
+.coral .show-map-collapse a,
+.coral .pages-portfolio li a:hover,
+.coral .button-price,
+.coral .pop-up-body-staff p,
+.coral .menuja-all li a:hover,
+.coral .drop-down-menu li,
+.coral .hr-menu,
+.coral .search-top,
+.coral .blog-left,
+.coral .read-more-blog,
+.coral .right-blog,
+.coral .blog-right,
+.coral .blog-list-first,
+.coral .all-list-blog li a,
+.coral .pages-blog li a:hover,
+.coral .all-list-blog li:hover,
+.coral .div-of-slide h1,
+.coral .menuja-all li a:active
+{
+	border-color: #b13333!important;
+
+}
+.coral .carousel-indicators li.active,
+.coral .butonnni,
+.coral .read-more-about-us:hover,
+.coral .first-person-social li i:hover,
+.coral .service-list li:hover .div-default,
+.coral .read-more-service:hover,
+.coral .second-service-list i:hover,
+.coral .first-ofer:hover,
+.coral .send-meessage:hover,
+.coral .show-map-collapse a:hover,
+.coral .footer,
+.coral .button-price,
+.coral .pop-up-social-staff li i:hover,
+.coral .progress-elements,
+.coral .pop-up-social i:hover,
+.coral .footer-social li i:hover,
+.coral .drop-down-menu > li > a:hover,
+.coral .social-portfolio li i,
+.coral .read-more-blog:hover,
+.coral .service-list li:hover .read-more-service
+
+{
+	background-color: #b13333!important;
+}
+
+
+.coral .first-person-social .link-pop:hover{
+	background: transparent !important;
+}
+.coral .footer-social,
+.coral .last-arow i
+{
+	background-color: #923535;
+}
+.coral .social-portfolio li i{
+	background-color: rgba(177, 51, 51, 0.8) !important;
+}
+.coral .last-arow i:hover{
+	color: #fff !important;
+}
+
+.coral .footer-social li i{
+	color: #923535;
+}
